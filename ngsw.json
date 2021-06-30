@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1625068978759,
+  "index": "https://joashdev/github.io/tictactoe/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://joashdev/github.io/tictactoe/favicon.ico",
+        "https://joashdev/github.io/tictactoe/index.html",
+        "https://joashdev/github.io/tictactoe/main.14d6418a36ffb4fdd36c.js",
+        "https://joashdev/github.io/tictactoe/manifest.webmanifest",
+        "https://joashdev/github.io/tictactoe/polyfills.06ec871f88620a9ec2ae.js",
+        "https://joashdev/github.io/tictactoe/runtime.f23b2ceec9daf83ca298.js",
+        "https://joashdev/github.io/tictactoe/styles.57cdf3be5863c8b8a789.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-128x128.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-144x144.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-152x152.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-192x192.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-384x384.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-512x512.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-72x72.png",
+        "https://joashdev/github.io/tictactoe/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://joashdev/github.io/tictactoe/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://joashdev/github.io/tictactoe/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://joashdev/github.io/tictactoe/index.html": "02148f3853c9f289238e05a56473c1aa71b532cf",
+    "https://joashdev/github.io/tictactoe/main.14d6418a36ffb4fdd36c.js": "34ae9084a27fc8428e25ae34b0cb6c0bbc41870e",
+    "https://joashdev/github.io/tictactoe/manifest.webmanifest": "09910634b75baf8db685efd0e188a85472406249",
+    "https://joashdev/github.io/tictactoe/polyfills.06ec871f88620a9ec2ae.js": "866104205cdf5273ec472a9aaad878a720741852",
+    "https://joashdev/github.io/tictactoe/runtime.f23b2ceec9daf83ca298.js": "b68eb83d759974819f4f04fccb5136159aef6a13",
+    "https://joashdev/github.io/tictactoe/styles.57cdf3be5863c8b8a789.css": "63caeecb41b1922d76f4d12d5c18430f56798e86"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
