@@ -1,13 +1,13 @@
                                                                           
 <button nbButton shape="round" outline status="danger" (click)="newGame()">Start new Game</button>                                                                
 <ng-template [ngIf]="winner" [ngIfElse]="gameWon">
-  <h2 >                                                       
+    <h4>                                                       
       Player {{ winner }} won the game!                                   
-  </h2>                                                                  
+  </h4>                                                                  
 </ng-template>
 
 <ng-template #gameWon>
-    <h2>Current Player: {{ player }} </h2>                                    
+    <h3>Current Player: {{ player }} </h3>                                    
 </ng-template>           
                                                                           
                                                                           

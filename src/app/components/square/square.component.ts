@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-square',
   template: `
-    <button nbButton hero shape="semi-round" status="primary" *ngIf="!value">{{ value }}</button>
+    <button nbButton shape="semi-round" status="primary" *ngIf="!value">{{ value }}</button>
     <button nbButton hero shape="semi-round" status="success" *ngIf="value == 'X'">{{ value }}</button>
     <button nbButton hero shape="semi-round" status="info" *ngIf="value == 'O'">{{ value }}</button>
   `,
