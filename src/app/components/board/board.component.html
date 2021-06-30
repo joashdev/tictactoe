@@ -1,0 +1,22 @@
+                                                                          
+<button nbButton shape="round" outline status="danger" (click)="newGame()">Start new Game</button>                                                                
+<ng-template [ngIf]="winner" [ngIfElse]="gameWon">
+  <h2 >                                                       
+      Player {{ winner }} won the game!                                   
+  </h2>                                                                  
+</ng-template>
+
+<ng-template #gameWon>
+    <h2>Current Player: {{ player }} </h2>                                    
+</ng-template>           
+                                                                          
+                                                                          
+                                                                          
+<main>                                                                    
+    <app-square                                                           
+        *ngFor="let val of squares; let i = index"                        
+        [value]="val"                                                    
+        (click)="winner==='' && makeMove(i)">                                            
+                                                                          
+    </app-square>                                                         
+</main>      
